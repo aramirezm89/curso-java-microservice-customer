@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /api
+spring:
+  datasource:
+#    url: jdbc:postgresql://localhost:5432/best_travel
+#    username: aramirezm
+#    password: Ramirez1989
+#    hikari:
+#      connection-timeout: 2000
+#      maximum-pool-size: 5
+  logging:
+    level:
+      org.hibernate.type.descriptor.sql.BasicBinder: trace
