@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /api
+    context-path: /customer-microservice/api
 spring:
   datasource:
 #    url: jdbc:postgresql://localhost:5432/best_travel
@@ -12,3 +12,6 @@ spring:
   logging:
     level:
       org.hibernate.type.descriptor.sql.BasicBinder: trace
+springdoc:
+  api-docs:
+    enabled: false
